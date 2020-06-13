@@ -12,7 +12,7 @@ xhttp.onreadystatechange = function() {
         console.log("ok"+response);
         var data = JSON.parse(response);
     console.log(data.attachments[0].fallback);
-     document.getElementById('output').innerHTML = "<p>"+data.attachments[0].fallback+"</p>";
+     document.getElementById('output').innerHTML = "<br><p>"+data.attachments[0].fallback+"</p>";
         }
 };
 
